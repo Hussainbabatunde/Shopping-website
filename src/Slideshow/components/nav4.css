@@ -27,6 +27,8 @@ nav{
 .symbols{
     margin-right: 40px;
     font-size: 18px;
+    display: flex;
+    align-items: center;
 }
 .fixed{
     padding-left: 40px;

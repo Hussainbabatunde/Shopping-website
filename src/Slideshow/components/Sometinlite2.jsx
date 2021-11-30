@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import './bodywork.css';
 
-function Sometinlite(){
+function Sometinlite2(){
     const [count, setCount] = useState(0);
     function buttonClick1(){
         const count1 = count + 1;
@@ -19,9 +19,9 @@ function Sometinlite(){
     return(<div>
          <section>
         <p class="num1">By Hussain Babatunde</p>
-        <p class="num2">Flower Vase</p>
-        <p class="num3">$150</p>
-        <p class="num4">Piece of raw material, nature inspired. The Japandi culture, a mix of scandinavian and Japanese Art Deco with clean lines</p>
+        <p class="num2">Glass Cup</p>
+        <p class="num3">$200</p>
+        <p class="num4">An inorganic solid material that is usually transparentas well as hard, brittle, and impervious to the natural elements.</p>
         <hr class="hr1" />
         <form>
         <a class="minus" onClick={buttonClick}>-</a>
@@ -34,4 +34,4 @@ function Sometinlite(){
     </div>);
 }
 
-export default Sometinlite;
+export default Sometinlite2;

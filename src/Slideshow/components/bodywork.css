@@ -99,6 +99,8 @@ li{
     margin-top: 8px;
     margin-right: 40px;
     background-color: rgba(235, 241, 237, 0.664);
+    padding-left: 5px;
+    padding-right: 5px;
 }
 .minus:hover{
     background-color: white;
@@ -116,6 +118,8 @@ li{
     border: none;
     float:none;
     background-color: rgba(235, 241, 237, 0.664);
+    padding-left: 5px;
+    padding-right: 5px;
 }
 .plus:hover{
     background-color: white;
@@ -181,7 +185,7 @@ li{
         margin-top: 500px;
     }
     .num2{
-        margin-left: 325px;
+        margin-left: 230px;
         margin-top: 50px;
     }
     .num3{
@@ -394,7 +398,7 @@ li{
         margin-top: 500px;
     }
     .num2{
-        margin-left: 230px;
+        margin-left: 150px;
         margin-top: 50px;
     }
     .num3{

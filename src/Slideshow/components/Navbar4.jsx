@@ -1,9 +1,13 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 import tunde1 from './tunde1.jpg';
+import {useStateValue} from './StateProvider';
+
 import './nav4.css';
 
 function Navbar4(){
+const [{ basket }] = useStateValue();
+
     return(<div>
         <nav class="dropdown">
             <button onclick="dropdownfnc()" class="Menu">Menu</button>
@@ -16,7 +20,10 @@ function Navbar4(){
         </div>
             <img src={tunde1} alt="logo" class="image" />
             <div class="symbols">👤</div>
-            <div class="symbols">👜</div>
+            <div className="symbols">
+            <div>👜</div>
+            <span>{basket?.length}</span>
+            </div>
         </nav>
         <hr />
     </div>);
