@@ -1,0 +1,461 @@
+.movement1{
+    float: left;
+    font-size: 15px;
+    padding:10px;
+    border: solid;
+    border-width: thin;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 250px;
+    margin-left: 50px;
+    margin-right: 20px;
+    background-color: rgba(235, 241, 237, 0.664);
+}
+.movement2{
+    float: left;
+    border: solid;
+    padding:10px;
+    border-width: thin;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 250px;
+    font-size: 15px;
+    margin-left: 20px;
+    margin-right: 50px;
+    background-color: rgba(235, 241, 237, 0.664);
+}
+.movement1:hover{
+    background-color: white;
+    }
+.movement2:hover{
+   background-color: white;
+    }
+
+
+.symbols{
+    margin-right: 50px;
+}
+.fixed, a{
+    padding-left: 40px;
+    padding-right: 20px;
+    text-decoration: none;
+    color: black;
+}
+.slideshow-container{
+    position: relative;
+    width: 400px;
+    height: 500px;
+    margin-left: 0px;
+    margin-top: 30px;
+    float: left;
+    border: none;
+}
+.display1{
+    position: relative;
+    width: 400px;
+    height: 500px;
+    margin-left: 0px;
+    margin-top: 30px;
+    float: left;
+    border: none;
+}
+.logo{
+    width: 150px;
+}
+li{
+    display: inline-block;
+}
+.num1{
+    font-size: 12px;
+    margin-top: 50px;
+    margin-left: 500px;
+    width: 250px;
+    height: 20px;
+}
+.num2{
+    font-size: 70px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+.num3{
+    font-size: 25px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+.num4{
+    margin-right: 390px;
+    margin-bottom: 30px;
+
+}
+.hr1{
+    margin-left: 620px;
+    width: 150px;
+}
+.minus{
+    margin-left:100px;
+    float: left;
+    border: none;
+    margin-top: 8px;
+    margin-right: 40px;
+    background-color: rgba(235, 241, 237, 0.664);
+}
+.minus:hover{
+    background-color: white;
+    }
+#val{
+    float: left;
+    margin-right: 40px;
+    margin-top: 7px;
+    border: none;
+    width: 20px;
+    background-color: rgba(235, 241, 237, 0.664);
+}
+.plus{
+    margin-top: 8px;
+    border: none;
+    float:none;
+    background-color: rgba(235, 241, 237, 0.664);
+}
+.plus:hover{
+    background-color: white;
+}
+.hr2{
+    margin-left: 620px;
+    width: 150px;
+    margin-top: 20px;
+}
+.button3{
+    margin-left: 100px;
+    background-color:black;
+    color: white;
+    border: none;
+    margin-top: 20px;
+    padding-left: 65px;
+    padding-right: 65px;
+    padding-top:15px;
+    padding-bottom: 15px;
+    cursor: pointer;
+}
+.button3:hover{
+    background-color: red;
+    cursor: pointer;
+}
+@media (min-width: 1098px) and ( max-width: 1337px){
+    .num4{
+        width: 350px;
+        margin-left: 590px;
+    }
+    .hr1, .hr2{
+        margin-left:600px;
+        margin-right: 520px;
+    }
+    
+}
+@media  (min-width: 765px) and ( max-width: 1093px){
+    .display1{
+        position: relative;
+        width: 350px;
+        height: 400px;
+        margin-left: 0px;
+        margin-top: 30px;
+        clear: right;
+        border: none;
+    }
+    .image{
+        margin-right: 100px;
+        margin-left: 100px;
+    }
+   
+    .slideshow-container{
+        width: 350px;
+    }
+    .movement1{
+        margin-left: 180px;
+    }
+    .movement2{
+        clear: right;
+    }
+    .num1{
+        margin-left: 340px;
+        margin-top: 500px;
+    }
+    .num2{
+        margin-left: 325px;
+        margin-top: 50px;
+    }
+    .num3{
+        margin-left: 365px;
+    }
+    .num4{
+        margin-left: 240px;
+        width: 330px;
+    }
+    .hr1, .hr2{
+        margin-left: 300px;
+    }
+    .minus{
+        margin-left: 305px;
+    }
+    .button3{
+        margin-left: 265px;
+    }
+    .Menu {
+        background-color: #3498DB;
+        color: white;
+        padding: 16px;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+        display: block;
+        padding: 8px 16px;
+      }
+      
+      .Menu:hover, .Menu:focus {
+        background-color: #2980B9;
+      }
+      
+      .fixed{
+        margin-top: 90px;
+        padding-left: 0px;
+    }
+    ul{
+        padding-left: 20px;
+    }
+      .fixed {
+        display: none;
+        position: absolute;
+        background-color: #f1f1f1;
+        min-width: 160px;
+        overflow: auto;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+      }
+      
+      .fixed a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+      }
+      
+      .fixed a:hover {background-color: #ddd;}
+      
+      .show {
+          display: block;
+        }
+   
+}
+@media (max-width: 500px){
+    .image{
+        margin-right: 0px;
+        width: 130px;
+    }
+   
+    .movement1{
+        float: left;
+        margin-left:15px;
+        margin-top: 150px;
+    }
+    .movement2{
+        margin-top:150px;
+    }
+    .display1{
+        width: 230px;
+        height: 230px;
+        float:left;
+    }
+    .Menu {
+        background-color: #3498DB;
+        color: white;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+        display: block;
+        padding: 4px 8px;
+        margin-left: 10px;
+      }
+      
+      .Menu:hover, .Menu:focus {
+        background-color: #2980B9;
+      }
+      
+      .fixed{
+        margin-top: 90px;
+        padding-left: 0px;
+    }
+    ul{
+        padding-left: 20px;
+    }
+      .fixed {
+        display: none;
+        position: absolute;
+        background-color: #f1f1f1;
+        min-width: 160px;
+        overflow: auto;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+      }
+      
+      .fixed a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+      }
+      
+      .fixed a:hover {background-color: #ddd;}
+      
+      .show {
+          display: block;
+        }
+    
+    .slideshow-container{
+        width: 230px;
+        height: 230px;
+    }
+    .num4{
+        width: 300px;
+    }
+    .num1{
+        margin-top: 320px;
+        margin-left: 110px;
+        margin-bottom: 5px;
+    }
+    .num2{
+        margin-left: 120px;
+        margin-top: 0px;
+        font-size: 50px;
+        margin-bottom: 0px;
+    }
+    .num3{
+        margin-top: 0px;
+        margin-left: 140px;
+    }
+    .num4{
+        margin-left: 40px;
+    }
+    .hr1, .hr2{
+        margin-left: 95px;
+    }
+    .button3{
+        margin-left: 60px;
+    }
+}
+
+@media (max-width: 400px){
+    .display1, .slideshow-container{
+        width: 230px;
+        height: 230px;
+    }
+    .image{
+        width: 140px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    
+
+    .movement1{
+        margin-left: 5px;
+        margin-right: 10px;
+    }
+    .movement2{
+        margin-right: 0px;
+        margin-left: 10px;
+    }
+}
+@media  (min-width: 501px) and ( max-width: 764px){
+    .display1{
+        position: relative;
+        width: 350px;
+        height: 400px;
+        margin-left: 0px;
+        margin-top: 30px;
+        clear: right;
+        border: none;
+    }
+    .image{
+        margin-right: 100px;
+        margin-left: 100px;
+    }
+   
+    .slideshow-container{
+        width: 350px;
+    }
+    .movement1{
+        margin-left: 80px;
+    }
+    .movement2{
+        margin-right: 30px;
+        clear: right;
+    }
+    .num1{
+        margin-left: 240px;
+        margin-top: 500px;
+    }
+    .num2{
+        margin-left: 230px;
+        margin-top: 50px;
+    }
+    .num3{
+        margin-left: 275px;
+    }
+    .num4{
+        margin-left: 150px;
+        width: 330px;
+    }
+    .hr1, .hr2{
+        margin-left: 220px;
+    }
+    .minus{
+        margin-left: 225px;
+    }
+    .button3{
+        margin-left: 185px;
+    }
+    .Menu {
+        background-color: #3498DB;
+        color: white;
+        padding: 16px;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+        display: block;
+        padding: 8px 16px;
+      }
+      
+      .Menu:hover, .Menu:focus {
+        background-color: #2980B9;
+      }
+      
+      .fixed{
+          margin-top: 90px;
+          padding-left: 0px;
+      }
+      ul{
+          padding-left: 20px;
+      }
+      .fixed {
+        display: none;
+        position: absolute;
+        background-color: #f1f1f1;
+        min-width: 160px;
+        overflow: auto;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+      }
+      
+      .fixed a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+      }
+      
+      .fixed a:hover {background-color: #ddd;}
+      
+      .show {
+          display: block;
+        }
+   
+}
